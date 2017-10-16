@@ -1,0 +1,21 @@
+/* style.css */
+
+.btn-primary {
+  background-color: aquamarine;
+  border-color: cadetblue;
+}
+
+.btn-primary:hover {
+  background-color: cadetblue;
+  color: aquamarine;
+}
+
+.myText {
+  color: orangered;
+}
+
+@media screen and (max-width: 600px) {
+  .myText {
+    color: dodgerblue;
+  }
+}
